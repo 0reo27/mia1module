@@ -1,16 +1,9 @@
-# Magisk Module Template
+A collection of mods for the Xiaomi Mi A1
 
-This `README.md` will be shown in Magisk Manager. Place any information / changelog / notes you like.
-
-**Please update `README.md` if you want to submit your module to the online repo!**
-
-Github has its own online markdown editor with a preview feature, you can use it to update your `README.md`! If you need more advanced syntax, check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/modules.md)
-
+**Changelog**
 0.1
 -Enabled Camera 2 API
 -Added EIS Fix
 -Fixed Noise Cancellation
 -Fixed Camera Launch lag experienced when system is rooted.
--Added Pixel specific ringtones
+-Added Pixel specific (ring)tones/alarms/ui sounds
