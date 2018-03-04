@@ -1,0 +1,24 @@
+{
+  "name": "mia1module",
+  "version": "1.0.0",
+  "description": "A collection of mods for the Xiaomi Mi A1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0reo27/mia1module.git"
+  },
+  "author": "0reo27",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0reo27/mia1module/issues"
+  },
+  "homepage": "https://github.com/0reo27/mia1module#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-archiver": "^1.0.0"
+  }
+}
