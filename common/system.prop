@@ -1,9 +1,12 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
+
 # Enable Camera 2 API
 persist.camera.HAL3.enabled=1
+
 # EIS Fix
 persist.camera.eis.enable=1
+
 # Noise Cancellation Fix
 ro.vendor.audio.sdk.fluencetype=fluencepro

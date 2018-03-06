@@ -16,3 +16,9 @@ Added InterUI Font
 
 **0.3**  
 Inverted button layout
+
+**0.3.1**  
+Removed inverted button layout  
+
+**0.3.2**
+Fixed line breaks in system.prop

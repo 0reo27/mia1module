@@ -19,6 +19,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-archiver": "^1.0.0"
+    "gulp-archiver": "^1.0.0",
+    "gulp-sha": "^0.1.0"
   }
 }
