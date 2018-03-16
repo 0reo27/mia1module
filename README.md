@@ -20,5 +20,11 @@ Inverted button layout
 **0.3.1**  
 Removed inverted button layout  
 
-**0.3.2**
-Fixed line breaks in system.prop
+**0.3.2**  
+Fixed line breaks in system.prop  
+  
+**0.4**  
+Added more fonts for Inter-UI  
+  
+**0.5**  
+Enabled software navbar with fixes

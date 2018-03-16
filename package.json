@@ -20,6 +20,8 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-archiver": "^1.0.0",
+    "gulp-filter": "^5.1.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sha": "^0.1.0"
   }
 }
