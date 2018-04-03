@@ -27,4 +27,16 @@ Fixed line breaks in system.prop
 Added more fonts for Inter-UI  
   
 **0.5**  
-Enabled software navbar with fixes
+Enabled software navbar with fixes  
+  
+**0.5.1**  
+Replaced Inter UI with IBM Plesk Sans Font  
+    
+**0.5.2**  
+Applied Font Forge fix for lockscreen on *-light variant of the font - https://forum.xda-developers.com/showpost.php?p=74649221&postcount=2  
+  
+**0.5.3**  
+Changed fonts to San Francisco  
+  
+**0.6**  
+Updated with Google Pixel 2 Boot Animation  

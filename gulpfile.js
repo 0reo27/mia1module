@@ -22,6 +22,15 @@ gulp.task('fontRename', function () {
         .pipe(rename(function (opt) {
             // Replace function needs to be edited based on font naming convention
             opt.basename = opt.basename.replace(/Inter-UI/g, 'Roboto');
+            opt.basename = opt.basename.replace(/IBMPlexSans/g, 'Roboto');
+            opt.basename = opt.basename.replace(/FiraSans/g, 'Roboto');
+            opt.basename = opt.basename.replace(/SFCompactDisplay/g, 'RobotoCondensed');
+            opt.basename = opt.basename.replace(/SF-Pro-Display/g, 'Roboto');
+            opt.basename = opt.basename.replace(/SFProDisplay/g, 'Roboto');
+        }))
+        .pipe(rename(function (opt) {
+            // Replace function needs to be edited based on font naming convention
+            opt.extname = opt.extname.replace(/\.otf/g, '.ttf');
             return opt;
         }))
         .pipe(gulp.dest('system/fonts'))
