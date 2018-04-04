@@ -39,4 +39,4 @@ Applied Font Forge fix for lockscreen on *-light variant of the font - https://f
 Changed fonts to San Francisco  
   
 **0.6**  
-Updated with Google Pixel 2 Boot Animation  
+Reverted back to complete set of Inter UI fonts  
