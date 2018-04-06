@@ -40,3 +40,6 @@ Changed fonts to San Francisco
   
 **0.6**  
 Reverted back to complete set of Inter UI fonts  
+  
+**0.7**  
+Moved all build.prop edits to service.sh

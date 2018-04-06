@@ -10,6 +10,7 @@ gulp.task('default', function () {
     return gulp.src([
             './**/*',
             '!./{node_modules,node_modules/**,releases,releases/**,.gitattributes,package*.json,gulpfile.js}',
+            '!./{ADB-Push-Latest.bat}',
             '!./{fontBase,fontBase/**}'
         ])
         .pipe(archiver('mia1module.zip'))
