@@ -42,4 +42,7 @@ Changed fonts to San Francisco
 Reverted back to complete set of Inter UI fonts  
   
 **0.7**  
-Moved all build.prop edits to service.sh
+Moved all build.prop edits to service.sh  
+  
+**0.8**  
+Added SIM not detected fix.
