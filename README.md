@@ -1,8 +1,8 @@
-## **Description**
+# **Description**
 
 A collection of mods for the Xiaomi Mi A1
 
-## **Changelog**
+# **Changelog**
 
 **0.1**  
 Enabled Camera 2 API  
@@ -46,3 +46,6 @@ Moved all build.prop edits to service.sh
   
 **0.8**  
 Added SIM not detected fix.
+
+**0.9**
+Added default ringtones with service.sh

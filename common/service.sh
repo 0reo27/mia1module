@@ -41,3 +41,8 @@ resetprop ro.vendor.audio.sdk.fluencetype fluencepro
 # resetprop qemu.hw.mainkeys 0
 # Test Code
 resetprop qemu.hw.mainkeys 0
+
+# Set the default Tones
+resetprop ro.config.ringtone=The_big_adventure.ogg
+resetprop ro.config.notification_sound=Popcorn.ogg
+resetprop ro.config.alarm_alert=Alarm_Buzzer.ogg
