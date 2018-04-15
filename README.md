@@ -47,5 +47,5 @@ Moved all build.prop edits to service.sh
 **0.8**  
 Added SIM not detected fix.
 
-**0.9**
+**0.9**  
 Added default ringtones with service.sh
