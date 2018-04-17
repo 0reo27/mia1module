@@ -8,10 +8,7 @@ const
 // Create a release
 gulp.task('default', function () {
     return gulp.src([
-            './**/*',
-            '!./{node_modules,node_modules/**,releases,releases/**,.gitattributes,package*.json,gulpfile.js}',
-            '!./{ADB-Push-Latest.bat}',
-            '!./{fontBase,fontBase/**}'
+            './src/**/*'
         ])
         .pipe(archiver('mia1module.zip'))
         .pipe(gulp.dest('releases'));
@@ -34,5 +31,5 @@ gulp.task('fontRename', function () {
             opt.extname = opt.extname.replace(/\.otf/g, '.ttf');
             return opt;
         }))
-        .pipe(gulp.dest('system/fonts'))
+        .pipe(gulp.dest('src/system/fonts'));
 });
