@@ -50,3 +50,10 @@ resetprop qemu.hw.mainkeys 0
 resetprop ro.config.ringtone=The_big_adventure.ogg
 resetprop ro.config.notification_sound=Popcorn.ogg
 resetprop ro.config.alarm_alert=Alarm_Buzzer.ogg
+# A bug occurs that changes the ring and alarm tones on module uninstall, change the settings programtically.
+currentTone=$(settings get system ringtone)
+if [ "$currentTone" = content://media/internal/audio/media/316 ]
+then
+    settings put system ringtone content://media/internal/audio/media/406
+    settings put system notification_sound content://media/internal/audio/media/395
+fi
