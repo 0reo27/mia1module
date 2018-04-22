@@ -41,6 +41,9 @@ resetprop ro.vendor.audio.sdk.fluencetype fluencepro
 # Custom Features
 # ========================================
 
+#Requires kernel support
+echo 2030 > /sys/devices/virtual/timed_output/vibrator/vtg_level
+
 # Enable the software navbar
 # resetprop qemu.hw.mainkeys 0
 # Test Code
@@ -52,7 +55,7 @@ resetprop ro.config.notification_sound=Popcorn.ogg
 resetprop ro.config.alarm_alert=Alarm_Buzzer.ogg
 # A bug occurs that changes the ring and alarm tones on module uninstall, change the settings programtically.
 currentTone=$(settings get system ringtone)
-if [ "$currentTone" = content://media/internal/audio/media/316 ]
+if [ "$currentTone" = content://media/internal/audio/media/406 ]
 then
     settings put system ringtone content://media/internal/audio/media/406
     settings put system notification_sound content://media/internal/audio/media/395

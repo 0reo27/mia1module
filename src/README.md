@@ -48,4 +48,8 @@ Moved all build.prop edits to service.sh
 Added SIM not detected fix.
 
 **0.9**  
-Added default ringtones with service.sh
+Added default ringtones with service.sh  
+  
+**0.11**  
+Added ringtones fix upon uninstallation
+Added qpnp haptics vibrate levels support on boot.
