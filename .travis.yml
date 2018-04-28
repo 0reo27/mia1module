@@ -22,7 +22,7 @@ deploy:
   skip_cleanup: true
   on:
     repo: 0reo27/mia1module
-  tag_name: "$(date -u +%H%M%S)"
+  tag_name: "$date"
 
 # Neuter notifications.
 notifications:
