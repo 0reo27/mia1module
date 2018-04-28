@@ -55,4 +55,7 @@ Added ringtones fix upon uninstallation
 Added qpnp haptics vibrate levels support on boot.  
   
 **0.12**  
-Added 12.6MP camera resolution with wider FOV. - https://forum.xda-developers.com/mi-a1/themes/camera-mods-tadis-libhacks-camera-t3686150
+Added 12.6MP camera resolution with wider FOV. - https://forum.xda-developers.com/mi-a1/themes/camera-mods-tadis-libhacks-camera-t3686150  
+  
+**0.13**  
+Travis CI added for automated releases.
