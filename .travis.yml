@@ -9,6 +9,8 @@ install:
 
 script:
   - gulp defaultTravis
+  - export currentModuleVersion=$(sed '4!d' src/module.prop)
+  - export currentModuleVersion=$(echo $currentModuleVersion | sed 's/versionCode=//g')
 
 branches:
   except:
@@ -22,7 +24,7 @@ deploy:
   skip_cleanup: true
   on:
     repo: 0reo27/mia1module
-  tag_name: "$date"
+  tag_name: "$currentModuleVersion"
 
 # Neuter notifications.
 notifications:
