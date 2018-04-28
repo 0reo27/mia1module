@@ -14,6 +14,15 @@ gulp.task('default', function () {
         .pipe(gulp.dest('releases'));
 });
 
+// Create a release for travis
+gulp.task('default', function () {
+    return gulp.src([
+            './src/**/*'
+        ])
+        .pipe(archiver('mia1module.zip'))
+        .pipe(gulp.dest('travisRelease'));
+});
+
 // Rename Font Files
 gulp.task('fontRename', function () {
     return gulp.src('fontBase/**/*')

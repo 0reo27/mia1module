@@ -41,7 +41,8 @@ resetprop ro.vendor.audio.sdk.fluencetype fluencepro
 # Custom Features
 # ========================================
 
-#Requires kernel support
+# Requires kernel support
+# Set a comfortable vibration level.
 echo 2030 > /sys/devices/virtual/timed_output/vibrator/vtg_level
 
 # Enable the software navbar
