@@ -14,7 +14,7 @@ script:
 
 branches:
   except:
-    - /^v[0-9]/
+    - /.*.*/g
 
 deploy:
   provider: releases
