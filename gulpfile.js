@@ -15,7 +15,7 @@ gulp.task('default', function () {
 });
 
 // Create a release for travis
-gulp.task('default', function () {
+gulp.task('defaultTravis', function () {
     return gulp.src([
             './src/**/*'
         ])
