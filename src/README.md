@@ -1,9 +1,7 @@
-# **Description**
-
+# **Xiaomi Mi A1 Mods**
+## Description
 A collection of mods for the Xiaomi Mi A1
-
-# **Changelog**
-
+## Changelog
 **0.1**  
 Enabled Camera 2 API  
 Added EIS Fix  
@@ -58,4 +56,21 @@ Added qpnp haptics vibrate levels support on boot.
 Added 12.6MP camera resolution with wider FOV. - https://forum.xda-developers.com/mi-a1/themes/camera-mods-tadis-libhacks-camera-t3686150  
   
 **0.13**  
-Travis CI added for automated releases.
+Travis CI added for automated releases.  
+
+**0.14**  
+Template updated with proper readme.
+## Requirements
+- Requirement 1
+- Requirement *
+- Requirement n
+## Instructions
+Instructions here
+- Or other instructions here
+- Followed by more instructions
+1. Or a list of instructions
+2. With more instructions
+## Links
+[Module XDA Forum Thread](# "Module official XDA thread")
+
+[Latest stable Magisk](http://www.tiny.cc/latestmagisk)
