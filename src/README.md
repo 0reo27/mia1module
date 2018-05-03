@@ -59,7 +59,11 @@ Added 12.6MP camera resolution with wider FOV. - https://forum.xda-developers.co
 Travis CI added for automated releases.  
 
 **0.14**  
-Template updated with proper readme.
+Template updated with proper readme.  
+  
+**0.15**  
+Patched services.jar (April Update Only).  
+
 ## Requirements
 - Requirement 1
 - Requirement *

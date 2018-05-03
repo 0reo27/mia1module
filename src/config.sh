@@ -63,6 +63,11 @@ REPLACE="
 # Construct your own list here, it will override the example above
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
+/system/framework/services.jar
+/system/framework/oat/arm/services.odex
+/system/framework/oat/arm64/services.odex
+/system/framework/arm/services.odex
+/system/framework/arm64/services.odex
 "
 
 ##########################################################################################

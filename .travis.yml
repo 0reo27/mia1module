@@ -1,31 +1,27 @@
 language: node_js
-
 node_js:
-  - "lts/*"
-
+  - lts/*
 install:
   - npm install gulp -g
   - npm install
-
 script:
   - gulp defaultTravis
   - export currentModuleVersion=$(sed '4!d' src/module.prop)
-  - export currentModuleVersion=$(echo $currentModuleVersion | sed 's/versionCode=//g')
-
+  - >-
+    export currentModuleVersion=$(echo $currentModuleVersion | sed
+    's/versionCode=//g')
 branches:
-  except:
-    - /[-.0-9]+/
-
+  only:
+    - master
 deploy:
   provider: releases
   api_key:
-    secure: eL2Iil1xUSnmU+2DnFdWHqRo33xmJXGT6hxE9f9YTadGm5rktpTepsLykUZivPdn06A+RAVasCKwCvMOQhtTENc6ZUhxwCy6FZAzVTw//xVViY5Z6hSgde3NkGk2ffVGBSfNb7ozrWU/O/Db2OnABc9hFFXfuo1iKcKmgFuCxrrITVf5tXv05QAMv2iq5OSZB54Ax11P8kSlCnwLEV4b43OONtlCUCFOQuc7N4W1dWOb0e5gfbGNVNQj025EuosiuCC06tk2iUrDsMObYqSZZ2m71tMEl7Aw2lJ9OnHNzp1KQ3/Bhh+g5JoPrZGFD7G2fGjupmpGoHM6gX2zpBhfqqiq3QyZeJbJ1AZcuBM7K4zCwedl1DsE4ZQM9N/5/LP3CyT1PCpZ68uh8J8LfE/onwiA3fSbswOkygGz6Eb0UAROBana5+OzmEovH9C14NklNhIfKP/9gIB9b//0FL2wAxuUgBMLbprzXlqNNmbZcfY9bSYKNvCNrMzxq8VgGRmObDBHd1TiU3EVb5hBMDglqQkouj6nXSq0NROw+9564L4KmqMZ3n/S1zldUDxqe1lPUN4AEyo2bGe72BhHQG8FVhVW+JM8HE6UhRIB6OVmNNG+V7IQx0nBtX+S/ocaTa5r4ZrN4MSUfBV8PNE4ALZWDbWFP8qZwp/bimRn5F9Xkw0=
+    secure: >-
+      eL2Iil1xUSnmU+2DnFdWHqRo33xmJXGT6hxE9f9YTadGm5rktpTepsLykUZivPdn06A+RAVasCKwCvMOQhtTENc6ZUhxwCy6FZAzVTw//xVViY5Z6hSgde3NkGk2ffVGBSfNb7ozrWU/O/Db2OnABc9hFFXfuo1iKcKmgFuCxrrITVf5tXv05QAMv2iq5OSZB54Ax11P8kSlCnwLEV4b43OONtlCUCFOQuc7N4W1dWOb0e5gfbGNVNQj025EuosiuCC06tk2iUrDsMObYqSZZ2m71tMEl7Aw2lJ9OnHNzp1KQ3/Bhh+g5JoPrZGFD7G2fGjupmpGoHM6gX2zpBhfqqiq3QyZeJbJ1AZcuBM7K4zCwedl1DsE4ZQM9N/5/LP3CyT1PCpZ68uh8J8LfE/onwiA3fSbswOkygGz6Eb0UAROBana5+OzmEovH9C14NklNhIfKP/9gIB9b//0FL2wAxuUgBMLbprzXlqNNmbZcfY9bSYKNvCNrMzxq8VgGRmObDBHd1TiU3EVb5hBMDglqQkouj6nXSq0NROw+9564L4KmqMZ3n/S1zldUDxqe1lPUN4AEyo2bGe72BhHQG8FVhVW+JM8HE6UhRIB6OVmNNG+V7IQx0nBtX+S/ocaTa5r4ZrN4MSUfBV8PNE4ALZWDbWFP8qZwp/bimRn5F9Xkw0=
   file: travisRelease/mia1module.zip
   skip_cleanup: true
   on:
     repo: 0reo27/mia1module
-  tag_name: "$currentModuleVersion"
-
-# Neuter notifications.
+  tag_name: $currentModuleVersion
 notifications:
   email: false
