@@ -1,7 +1,7 @@
 id=mia1mods
 name=Xiaomi Mi A1 Module
-version=0.15 Beta
-versionCode=0.15
+version=0.16 Beta
+versionCode=0.16
 author=oreo27
 description=A collection of mods for the Xiaomi Mi A1.
 minMagisk=1500

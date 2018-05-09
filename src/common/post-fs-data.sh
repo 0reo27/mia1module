@@ -7,7 +7,9 @@ MODDIR=${0%/*}
 # More info in the main Magisk thread
 
 # Fix the camera lag.
-magiskpolicy --live "allow hal_camera_default surfaceflinger_service service_manager find"
+# No longer works since the April Update patch as I've experienced and other people reported.
+# magiskpolicy --live "allow hal_camera_default surfaceflinger_service service_manager find"
+magiskpolicy --live "allow hal_camera_default * * *"
 
 # Remove backlight on capacitive keys.
 # If this module is uninstalled, this is reversed. My guess is this file is generated at re/boot.

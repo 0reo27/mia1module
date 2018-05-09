@@ -63,6 +63,9 @@ Template updated with proper readme.
   
 **0.15**  
 Patched services.jar (April Update Only).  
+  
+**0.16**  
+Fixed SeLinux Policy for Camera.
 
 ## Requirements
 - Requirement 1
