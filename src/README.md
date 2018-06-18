@@ -65,7 +65,11 @@ Template updated with proper readme.
 Patched services.jar (April Update Only).  
   
 **0.16**  
-Fixed SeLinux Policy for Camera.
+Fixed SeLinux Policy for Camera.  
+  
+**0.17**  
+Updated services.jar patch to the 9.5.11 base.  
+Removed vibration level custom setting.
 
 ## Requirements
 - Requirement 1
